@@ -198,10 +198,14 @@ glfwSwapBuffers(screen);
 		glfwPollEvents();
 	}
 
-	//glDeleteVertexArrays(1, &vao1);
-	//glDeleteBuffers(1, &vbo1);
-	//glDeleteBuffers(1, &ebo1);
-	//glDeleteProgram(prg);
+	glDeleteVertexArrays(1, &vao);
+	glDeleteBuffers(1, &vbo);
+	glDeleteBuffers(1, &ebo);
+
+	glDeleteVertexArrays(1, &vao1);
+	glDeleteBuffers(1, &vbo1);
+	glDeleteBuffers(1, &ebo1);
+ 	glDeleteProgram(prg);
 
 	glfwTerminate();
 	return 0;
