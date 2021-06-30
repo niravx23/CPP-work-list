@@ -1,7 +1,7 @@
 #include<glad/glad.h>
 #include <GLFW/glfw3.h>
 #include <ShaderParser.h>
-
+// shader file named shield color attribute 
 int main() {
 
 	ShaderParser shield("C:/Users/na/Desktop/programming/open gl/OPENGL/main.gl/shaders/shield.glsl");
