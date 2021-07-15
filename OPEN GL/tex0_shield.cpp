@@ -5,6 +5,7 @@
 #include <shaderparser.hpp>
 #include <iostream>
 
+/////////////////// SHADER FILE NAMED TEXTURE0.GLSL
 const unsigned int SCR_WIDTH = 1000;
 const unsigned int SCR_HEIGHT = 1000;
 
